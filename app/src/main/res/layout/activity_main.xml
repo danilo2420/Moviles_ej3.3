@@ -1,0 +1,67 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo"
+        android:scaleType="fitXY"
+        android:alpha="0.6"
+        android:contentDescription="Imagen de fondo azul"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spiCurso"
+            android:layout_margin="16dp"
+            android:entries="@array/cursos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSeleccionarCurso"
+            android:layout_margin="16dp"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoBoton1"/>
+
+        <TextView
+            android:id="@+id/txtAsignaturas"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sinCurso"/>
+
+        <EditText
+            android:id="@+id/txtObservaciones"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:hint="@string/observaciones"
+            android:inputType="textMultiLine"
+            android:gravity="start"/>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_margin="16dp"
+            android:padding="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textoBoton2"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+</FrameLayout>

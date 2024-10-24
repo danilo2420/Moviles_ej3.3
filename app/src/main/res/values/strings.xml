@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Proyecto2_BIL</string>
+    <string-array name="cursos">
+        <item>1º DAM</item>
+        <item>2º DAM</item>
+    </string-array>
+    <string name="textoBoton1">Seleccionar curso</string>
+    <string name="sinCurso">No hay curso seleccionado</string>
+    <string name="observaciones">Introduce observaciones</string>
+    <string name="textoBoton2">Enviar</string>
+
+    <string name="programacion">Programación</string>
+    <string name="entornos">Entornos</string>
+    <string name="marcas">Marcas</string>
+    <string name="basesDeDatos">Bases de datos</string>
+    <string name="sistemas">Sistemas</string>
+
+    <string name="moviles">Móviles</string>
+    <string name="interfaces">Interfaces</string>
+    <string name="accesoADatos">Acceso a datos</string>
+    <string name="ServiciosYProcesos">Servicios y procesos</string>
+    <string name="SGE">Sistemas de gestión empresarial</string>
+
+
+    <string name="mensajeToast">Las observaciones son %1$s</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Proyecto2_BIL</string>
+    <string-array name="cursos">
+        <item>1º DAM</item>
+        <item>2º DAM</item>
+    </string-array>
+    <string name="textoBoton1">Choose grade:</string>
+    <string name="sinCurso">No grade chosen</string>
+    <string name="observaciones">Type observations here...</string>
+    <string name="textoBoton2">Send</string>
+
+    <string name="programacion">Programming</string>
+    <string name="entornos">IDEs</string>
+    <string name="marcas">Markup Languages</string>
+    <string name="basesDeDatos">Databases</string>
+    <string name="sistemas">Systems</string>
+
+    <string name="moviles">Mobile apps</string>
+    <string name="interfaces">Interfaces</string>
+    <string name="accesoADatos">Data access</string>
+    <string name="ServiciosYProcesos">Services and processes</string>
+    <string name="SGE">ERPs</string>
+
+    <string name="mensajeToast">Observations are: %1$s</string>
+</resources>
+
